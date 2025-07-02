@@ -5,8 +5,8 @@ This repository contains materials and instructions for a workshop on deploying 
 
 ## 🌐 Demo
 
-Workshop link: [workshop.huyanh.click](https://workshop.huyanh.click)  
-Deployed website link: [workshop.huyanh.click](https://workshop.huyanh.click)
+Workshop link: [workshop](http://001-workshop-deploy-electron-shop.huyanh.click/)  
+Deployed website link: [shop-electron](https://shop.huyanh.click)
 
 > ✅ AWS is a powerful cloud platform that provides flexible and scalable solutions for hosting enterprise-grade applications like Spring Boot-based e-commerce systems.
 
