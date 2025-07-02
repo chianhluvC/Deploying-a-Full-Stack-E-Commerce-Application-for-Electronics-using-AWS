@@ -33,4 +33,5 @@ jobs:
         publish_dir: ./public
         publish_branch: gh-pages
         force_orphan: true
-        cname: workshop.huyanh.click
+        cname: 001-workshop-deploy-electron-shop.huyanh.click
+
