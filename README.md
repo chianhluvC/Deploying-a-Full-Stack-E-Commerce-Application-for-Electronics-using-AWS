@@ -1,5 +1,5 @@
 
-# 🚀 Deploying a Full-Stack Electronics E-Commerce Website with AWS
+# 🚀 Workshop Deploying a Full-Stack Electronics E-Commerce Website with AWS
 
 This repository contains materials and instructions for a workshop on deploying a full-stack e-commerce web application (built with Spring Boot) to AWS. The deployment utilizes essential AWS services such as EC2, S3, RDS, and Route 53.
 
