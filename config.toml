@@ -1,4 +1,5 @@
 baseURL = "https://chianhluvc.github.io/Deploying-a-Full-Stack-E-Commerce-Application-for-Electronics-using-AWS/"
+canonifyURLs = true
 # Change the default theme to be use when building the site with Hugo
 theme = "hugo-theme-learn"
 
