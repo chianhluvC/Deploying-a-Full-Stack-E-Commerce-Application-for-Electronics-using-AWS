@@ -21,8 +21,19 @@ jobs:
         with:
           hugo-version: '0.137.1'
 
+      - name: Check Hugo version
+        run: hugo version
+
+      - name: Check Hugo config
+        run: |
+          hugo config | grep -Ei 'baseurl|canonifyurls' || true
+
       - name: Build Hugo site
-        run: hugo --minify
+        run: |
+          hugo \
+            --minify \
+            --baseURL "https://chianhluvc.github.io/Deploying-a-Full-Stack-E-Commerce-Application-for-Electronics-using-AWS/" \
+            --canonifyURLs
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
